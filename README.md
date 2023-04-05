@@ -19,7 +19,7 @@ Essa é a parte de funcionalidades e regras de negócio da aplicação utilizand
 	id: 'uuid', // precisa ser um uuid
 	name: 'Gustavo Henrique',
 	username: 'gust',
-    statement: []
+  statement: []
 }
 ```
 
