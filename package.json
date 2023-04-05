@@ -2,11 +2,10 @@
   "name": "fundamentos-nodejs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "type": "module",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": " nodemon src/index.js"
+    "test": "jest",
+    "dev": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "",
@@ -17,8 +16,10 @@
   },
   "devDependencies": {
     "@types/express": "^4.17.17",
+    "@types/supertest": "^2.0.12",
     "@types/uuid": "^9.0.1",
     "jest": "^29.5.0",
-    "nodemon": "^2.0.22"
+    "nodemon": "^2.0.22",
+    "supertest": "^6.3.3"
   }
 }
